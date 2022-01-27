@@ -828,6 +828,14 @@ Constants
 
    Lets you get if measurement mode is enabled or not for the FLIR Lepton sensor. See `sensor.ioctl()` for more information.
 
+.. data:: sensor.IOCTL_LEPTON_SET_HIGH_TEMP_MODE
+
+   Lets you set the FLIR Lepton driver into a lower gain mode that enables temperature readings up to 400C. This mode is only available on the Lepton 3.5 sensor. See `sensor.ioctl()` for more information.
+
+.. data:: sensor.IOCTL_LEPTON_GET_HIGH_TEMP_MODE
+
+   Lets you get if high_temp mode is enabled or not for the FLIR Lepton sensor. See `sensor.ioctl()` for more information.
+
 .. data:: sensor.IOCTL_LEPTON_SET_MEASUREMENT_RANGE
 
    Lets you set the temperature range you want to map pixels in the image to when in measurement mode. See `sensor.ioctl()` for more information.
